@@ -4,7 +4,7 @@ The u-net deep learning python code is used to segment the breast FGT and fat ti
 1. creating mask
 --------------
 Matlab scripts developed in our lab are in the Mask_Generator_hand_draw folder. 
-For any 256 by 256 dicom images, the user can apply threshold and recursive handraw and removing ROI strategies to obtain a ground truth for FGT mask, and the whole breast mask.
+The program works for any dicom images. The user can first apply threshold to show the ROI. Next the user can use the cursor to draw the outline of the non-ROI noise and remove from the ROI images. Finally, the user can save the mask of the ROI. User can use this program to generate FGT mask, and the whole breast mask.
 
 --------------
 2. Traing model
