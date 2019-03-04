@@ -6,20 +6,26 @@ The u-net deep learning python code is used to segment the breast FGT and fat ti
 Matlab scripts developed in our lab are in the Mask_Generator_hand_draw folder. 
 The program works for any dicom images. The user can first apply threshold to show the ROI. Next the user can use the cursor to draw the outline of the non-ROI noise and remove from the ROI images. Finally, the user can save the mask of the ROI. User can use this program to generate FGT mask, and the whole breast mask.
 
-##Steps 1: Read dicom image:
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask1.png" >
-##Steps 2: Generating mask for whole breast:
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask2.png" >
-##Steps 3: Finished mask for whole breast:
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask3.png" >
-##Steps 4: Gnerating mask for Fibroglandular tissue(FGT):
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask4.png" >
-##Steps 5: Remove skin, muscle and image artifacts from the the FGT maks:
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask4_5.png" >
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask5-6.png" >
+## Steps 1: Read dicom image:
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask1.png" >|
+
+## Steps 2: Generating mask for whole breast:
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask2.png" >|
+
+## Steps 3: Finished mask for whole breast:
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask3.png" >|
+
+## Steps 4: Gnerating mask for Fibroglandular tissue(FGT):
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask4.png" >|
+
+## Steps 5: Remove skin, muscle and image artifacts from the the FGT maks:
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask4_5.png" >|
+
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask5-6.png" >|
+
 Keep circle out skin, muscle and image artifacts from the the FGT mask...
-##Steps 6: Finished mask for breast FGT:
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask7.png" >
+## Steps 6: Finished mask for breast FGT:
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask7.png" >|
 
 
 --------------
