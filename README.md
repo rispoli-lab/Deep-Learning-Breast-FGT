@@ -1,7 +1,7 @@
 # Deep-Learning-Breast-FGT
 The u-net deep learning python code is used to segment the breast FGT and fat tissue. The FGT % is calculated automatically from a test image of a 2D input breast MRI scan image
 --------------
-## 1. creating mask
+## 1. Creating mask
 --------------
 Matlab scripts developed in our lab are in the Mask_Generator_hand_draw folder. 
 The program works for any dicom images. The user can first apply threshold to show the ROI. Next the user can use the cursor to draw the outline of the non-ROI noise and remove from the ROI images. Finally, the user can save the mask of the ROI. User can use this program to generate FGT mask, and the whole breast mask.
