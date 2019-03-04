@@ -9,7 +9,7 @@ The program works for any dicom images. The user can first apply threshold to sh
 Steps 1: read dicom images
 |Dicom breast MRI image|
 |:-:|
-|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/Pictures/mask1.png" >|
+|<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/mask1.png" >|
 
 
 
