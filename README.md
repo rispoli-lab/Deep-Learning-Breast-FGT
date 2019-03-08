@@ -1,5 +1,5 @@
 # Deep-Learning-Breast-FGT
-The u-net deep learning python code is used to segment the breast FGT and fat tissue. The FGT % is calculated automatically from a test image of a 2D input breast MRI scan image
+The u-net deep learning python code is used to segment the breast FGT and whole breast. The FGT % is calculated automatically from 2D breast MRI scan images.
 --------------
 ## 1. Creating mask
 --------------
@@ -43,7 +43,7 @@ User only need to enter the directories path in the begining lines of the script
 "TestImgDir" is the folder storing the testing MRI images. \
 "Test_class1Dir" is the folder storing the binary mask images for class 1 for testing.\
 "Test_calss2Dir" is the folder storing the binary mask images for class 2 for testing.
-### Enter folder to save prediction images
+### Enter folder to save predicted images
 "Pred_Test_class1Dir" is the folder where the prediciton of class 1 mask images will be saved.\
 "Pred_Test_class2Dir" is the folder where the prediction of class 2 mask images will be saved.\
 when the testing process is finished, user can compare the predicted mask images in "Pred_Test_class1Dir" and "Pred_Test_class2Dir" with the groud truth maks images in 
