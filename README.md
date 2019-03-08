@@ -33,16 +33,16 @@ Keep outlining and remove skin, muscle and image artifacts from the the FGT mask
 --------------
 TrainingLoop.py can be used to tain model with training data.
 ### load training data, validating data and testing data
-User only need to enter the directories path in the begining lines of the script.
-"TrainImgDir" is the folder storing the MRI images for training.
-"Train_class1Dir" is the folder storing the binary mask images for class 1. Here they are the FGT mask images.
-"Train_class2Dir" is the folder storing the binary mask images for class 2. Here they are the whole breast mask images.
-"EvalImgDir" is the folder storing the MRI images for validating.
-"Eval_class1Dir" is the folder storing the binary mask images for class 1 for validating. 
-"Eval_class2Dir" is the folder storing the binary mask images for class 2 for validating.
-"TestImgDir" is the folder storing the testing MRI images. 
-"Test_class1Dir" is the folder storing the binary mask images for class 1 for testing.
-"Test_calss2Dir" is the folder storing the binary mask images for class 2 for testing.
+User only need to enter the directories path in the begining lines of the script.\
+"TrainImgDir" is the folder storing the MRI images for training.\
+"Train_class1Dir" is the folder storing the binary mask images for class 1. Here they are the FGT mask images.\
+"Train_class2Dir" is the folder storing the binary mask images for class 2. Here they are the whole breast mask images.\
+"EvalImgDir" is the folder storing the MRI images for validating.\
+"Eval_class1Dir" is the folder storing the binary mask images for class 1 for validating. \
+"Eval_class2Dir" is the folder storing the binary mask images for class 2 for validating.\
+"TestImgDir" is the folder storing the testing MRI images. \
+"Test_class1Dir" is the folder storing the binary mask images for class 1 for testing.\
+"Test_calss2Dir" is the folder storing the binary mask images for class 2 for testing.\
 ### enter folder to save prediction images
 "Pred_Test_class1Dir" is the folder where the prediciton of class 1 mask images will be saved.
 "Pred_Test_class2Dir" is the folder where the prediction of class 2 mask images will be saved.
