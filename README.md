@@ -32,7 +32,7 @@ Keep outlining and remove skin, muscle and image artifacts from the the FGT mask
 ## 2. Training model
 --------------
 TrainingLoop.py can be used to tain model with training data.
-### load training data, validating data and testing data
+### Load training data, validating data and testing data
 User only need to enter the directories path in the begining lines of the script.\
 "TrainImgDir" is the folder storing the MRI images for training.\
 "Train_class1Dir" is the folder storing the binary mask images for class 1. Here they are the FGT mask images.\
@@ -43,13 +43,13 @@ User only need to enter the directories path in the begining lines of the script
 "TestImgDir" is the folder storing the testing MRI images. \
 "Test_class1Dir" is the folder storing the binary mask images for class 1 for testing.\
 "Test_calss2Dir" is the folder storing the binary mask images for class 2 for testing.
-### enter folder to save prediction images
+### Enter folder to save prediction images
 "Pred_Test_class1Dir" is the folder where the prediciton of class 1 mask images will be saved.\
 "Pred_Test_class2Dir" is the folder where the prediction of class 2 mask images will be saved.\
 when the testing process is finished, user can compare the predicted mask images in "Pred_Test_class1Dir" and "Pred_Test_class2Dir" with the groud truth maks images in 
 "Test_class1Dir" and "Test_calss2Dir".
 
-### select U-net model
+### Select U-net model
 To use differenct depth of U-net model, just change line 7 of TrainingLoop.py. For example, "from unet_d3 import UNet" is to use the Depth 3 U-net model. unet_d4.py is depth 4 U-net model, unet_d5.py is depth 5 U-net model.
 
 --------------
