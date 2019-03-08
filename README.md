@@ -1,5 +1,5 @@
 # Deep-Learning-Breast-FGT
-The u-net deep learning python code is used to segment the breast FGT and whole breast. The FGT % is calculated automatically from 2D breast MRI scan images.
+The U-net deep learning python code is used to segment the breast FGT and whole breast. The FGT % is calculated automatically from 2D breast MRI scan images.
 --------------
 ## 1. Creating mask
 --------------
