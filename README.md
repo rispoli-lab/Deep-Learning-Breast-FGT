@@ -76,9 +76,9 @@ The automatically segmented FGT:\
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_19_class1.png" >\
 The automatically segmented whole breast:\
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_19_class2.png" >\
-The goundtruth mask of FGT:\
+The gound truth mask of FGT:\
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/test_class1.png" >\
-The goundtruth mask of whole breast:\
+The gound truth mask of whole breast:\
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/test_class2.png" >\
 The color overlay image is shown below. The overlaid image consists of the transparent ground truth mask for FGT, the transparent automatically segmented FGT image and the breat MRI test image. Here the ground truth FGT is in blue, the automatically segmented image FGT is in red, and the overlaid region of both ground truth and the mask is in yellow. \
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/overlay_19.png" >\
