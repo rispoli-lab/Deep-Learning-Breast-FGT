@@ -69,3 +69,14 @@ The automatically segmented whole breast:\
 ## 4. Testing model
 --------------
 TrainingLoop.py automatically test the model with test dataset. The directory of the test dataset path is entered by the user at the begining part of the script. The Fibroglandular tissue percentage (FGT%) in breast and dice coefficient of the predicted versus labels are automatically calculated and saved in the file name of the output images.
+### Testing resutls:
+The MRI breast image used for validation:\
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/Vlid_image2.png" >\
+The automatically segmented FGT:\
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_5_Valid_class1.png" >\
+The automatically segmented whole breast:\
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_5_Vali_class2.png" >
+
+
+
+
