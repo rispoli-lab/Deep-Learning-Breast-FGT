@@ -84,7 +84,7 @@ The color overlay image is shown below. The overlaid image consists of the trans
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/overlay_19.png" >\
 Another color overlay image is shown below. The overlaid image consists of the transparent ground truth mask for the whole breast, the transparent automatically segmented whole breast image and the breat MRI test image. Here the ground truth whole breast is in blue, the automatically segmented whole breast image is in red, and the overlaid region of both ground truth and the mask is in yellow. \
 <img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/overlay19_class2.png" >
-### predicted breast density (FGT %)
+### Predicted breast density (FGT %)
 The FGT % is automatically calculated by using the segmented FGT area size devide by the whole breast area size.\
 Predicted FGT% of this breast MRI image is : 0.225260\
 The Real FGT% of this breast MRI image is : 0.205698
