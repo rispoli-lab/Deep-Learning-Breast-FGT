@@ -58,7 +58,11 @@ To use differenct depth of U-net model, just change line 7 of TrainingLoop.py. F
 The directories path of the validation dataset can be entered by the user at the biginning part of TrainingLoop.py. The model at every epoch is validated, the model with the best loss from the validation is returned to for testing model.  
 ### Validation results:
 The MRI breast image used for validation:\
-<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/Vlid_image2.png" >
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/Vlid_image2.png" >\
+The automatically segmented FGT:\
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_5_Valid_class1.png" >\
+The automatically segmented whole breast:\
+<img src = "https://github.com/rispoli-lab/Deep-Learning-Breast-FGT/blob/master/Pictures/best_5_Vali_class2.png" >
 
 
 --------------
